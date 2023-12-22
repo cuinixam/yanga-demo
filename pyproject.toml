@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "Hello Yanga"
+version = "0.0.1"
+description = "A simple generated Yanga project to get you started"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yanga = "^0.17.0"
+west = "*"

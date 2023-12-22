@@ -1,0 +1,18 @@
+{
+  "buckets": [
+    {
+      "Name": "versions",
+      "Source": "https://github.com/ScoopInstaller/Versions"
+    }
+  ],
+  "apps": [
+    {
+      "Source": "versions",
+      "Name": "mingw-winlibs-llvm-ucrt"
+    },
+    {
+      "Source": "versions",
+      "Name": "arduino18"
+    }
+  ]
+}

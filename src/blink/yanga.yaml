@@ -1,0 +1,5 @@
+components:
+  - name: blink
+    type: component
+    sources:
+      - blink.cpp

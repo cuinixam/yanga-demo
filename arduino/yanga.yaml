@@ -1,0 +1,19 @@
+components:
+  - name: arduino_core
+    type: component
+    sources:
+      - "{{config.tools.arduino18.dir}}/hardware/arduino/avr/cores/arduino/main.cpp"
+  - name: blink_arduino
+    type: component
+    sources:
+      - blink_arduino.cpp
+
+variants:
+  - name: HelloBlink
+    description: Blink LED example for Arduino.
+    bom:
+      components:
+        - arduino_core
+        - blink_arduino
+        # This can be a subcomponent of blink_arduino.
+        - blink
